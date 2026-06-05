@@ -1,0 +1,16 @@
+
+baseURL = "/"
+languageCode = "en-us"
+title = "Pine Home Services Biz"
+theme = "custom"
+
+[params]
+  description = "Marketing playbooks for home service businesses: plumbers, electricians, cleaners, and landscapers."
+  author = "Editorial Team"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
